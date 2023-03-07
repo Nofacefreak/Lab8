@@ -21,14 +21,14 @@ public class CustomListTest {
         return cities.size();
     }
 
-    /**
-     * this adds a city object to the list
-     *for the first phase it will be empty
-     * @param city
-     */
-    public void addCity(City city){
-        cities.add(city);
-    }
+//    /**
+//     * this adds a city object to the list
+//     *for the first phase it will be empty
+//     * @param city
+//     */
+//    public void addCity(City city){
+//        cities.add(city);
+//    }
 
     private CustomList list;
     /**
@@ -55,9 +55,8 @@ public class CustomListTest {
     }
 
     /**
-     * get the size of the list
-     * increase the list by adding a new city
-     * check if our current size matches the initial size plus
+     * insert a city
+     * check if the city exists
      one
      */
     @Test
