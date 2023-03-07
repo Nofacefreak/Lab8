@@ -26,6 +26,7 @@ public class CustomListTest {
      * @param city
      */
     public void addCity(City city){
+        cities.add(city);
     }
 
     private CustomList list;
