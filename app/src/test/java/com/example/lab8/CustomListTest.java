@@ -62,10 +62,10 @@ public class CustomListTest {
      */
     @Test
     void testHasCity(){
-//        CustomList cityList = MockCityList();
-//        City city = new City("Regina", "Saskatchewan");
-//        cityList.add(city);
+        CustomList cityList = MockCityList();
+        City city = new City("Regina", "Saskatchewan");
+        cityList.add(city);
 
-//        assertTrue(cityList.hasCity(city));
+        assertTrue(cityList.hasCity(city));
     }
 }
