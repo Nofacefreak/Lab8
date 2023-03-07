@@ -30,7 +30,7 @@ public class CustomListTest {
         cities.add(city);
     }
 
-    public boolean hasCity(City city){ return cities.contains(city);}
+//    public boolean hasCity(City city){ return cities.contains(city);}
     private CustomList list;
     /**
      * create a mocklist for my citylist
