@@ -21,15 +21,16 @@ public class CustomListTest {
         return cities.size();
     }
 
-//    /**
-//     * this adds a city object to the list
-//     *for the first phase it will be empty
-//     * @param city
-//     */
-//    public void addCity(City city){
-//        cities.add(city);
-//    }
+    /**
+     * this adds a city object to the list
+     *for the first phase it will be empty
+     * @param city
+     */
+    public void addCity(City city){
+        cities.add(city);
+    }
 
+    public boolean hasCity(City city){ return cities.contains(city);}
     private CustomList list;
     /**
      * create a mocklist for my citylist
@@ -60,11 +61,11 @@ public class CustomListTest {
      one
      */
     @Test
-    void testHasCity(){
-        CustomList cityList = MockCityList();
+    public void testHasCity(){
+        list = MockCityList();
         City city = new City("Regina", "Saskatchewan");
-        cityList.add(city);
+        list.addCity(city);
 
-        assertTrue(cityList.hasCity(city));
+        assertTrue(list.hasCity(city));
     }
 }
